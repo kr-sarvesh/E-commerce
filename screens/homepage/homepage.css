@@ -102,12 +102,3 @@ a {
   width: 100%;
   margin-bottom: 0;
 }
-
-.small-container {
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  border-radius: 2px;
-  padding-right: 25px;
-  background-color: var(--offwhite-color);
-}
