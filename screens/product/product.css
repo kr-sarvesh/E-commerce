@@ -27,7 +27,7 @@ nav li a {
   text-align: center;
   margin: 0 auto 80px;
   position: relative;
-  line-height: 60px;
+  line-height: 40px;
   color: var(--primary-color);
 }
 
@@ -41,4 +41,20 @@ h4 {
 
 .rating .fa {
   color: var(--secondary-color);
+}
+
+/* product filter */
+
+.row-2 {
+  justify-content: space-between;
+  margin: 10px auto 50px;
+}
+
+select {
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+  background-color: var(--offwhite-color);
+}
+select:focus {
+  outline: none;
 }
