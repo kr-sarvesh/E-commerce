@@ -1,0 +1,77 @@
+@import url(/screens/homepage/homepage.css);
+@import url(/screens/cart/cart.css);
+
+.account-page {
+  padding: 50px 0;
+  background: radial-gradient(var(--offwhite-color), var(--secondary-color));
+}
+.form-container {
+  background: var(--offwhite-color);
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px var(--offwhite-color);
+  overflow: hidden;
+}
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: var(--primary-color);
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+.form-btn {
+  display: inline-block;
+}
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 100px;
+  transition: transform 1s;
+}
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+form .btn:focus {
+  outline: none;
+}
+
+#LoginForm {
+  left: -300px;
+}
+
+#RegForm {
+  left: 0;
+}
+
+form a {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+#Indicator {
+  width: 100px;
+  border: none;
+  background: var(--primary-color);
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
