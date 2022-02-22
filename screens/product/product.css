@@ -1,0 +1,44 @@
+@import url(/screens/homepage/homepage.css);
+
+nav li a {
+  color: var(--primary-color);
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+
+  padding-right: 25px;
+  background-color: var(--offwhite-color);
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-4 img {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: var(--primary-color);
+}
+
+h4 {
+  color: var(--primary-color);
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.rating .fa {
+  color: var(--secondary-color);
+}
