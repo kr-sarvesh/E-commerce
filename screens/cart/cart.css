@@ -11,7 +11,10 @@ table {
 .cart-info {
   direction: flex;
   flex-wrap: wrap;
+  font-size: large;
+  font-weight: 900;
 }
+
 th {
   text-align: left;
   padding: 5px;
